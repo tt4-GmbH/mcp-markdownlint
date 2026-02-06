@@ -1,0 +1,2 @@
+mcp>=1.1.2
+pymarkdownlnt>=0.9.24
