@@ -1,5 +1,8 @@
 {
   "MD002": true,
   "MD006": true,
-  "MD013": false
+  "MD013": false,
+  "MD040": true,
+  "MD022": true,
+  "MD032": true
 }
