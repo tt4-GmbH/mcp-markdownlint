@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 5 .venv/bin/python server.py)",
+      "Bash(claude mcp:*)",
+      "Bash(python3 -m json.tool)",
+      "Bash(ls ~/.claude/plugins/*/)",
+      "Bash(find ~/.claude/plugins/marketplaces -name *.json)",
+      "Bash(chmod +x ~/.claude/sync-mcp.py)",
+      "Bash(python3 ~/.claude/sync-mcp.py --dry-run)",
+      "Bash(python3 ~/.claude/sync-mcp.py)",
+      "Bash(command -v jq)",
+      "Bash(jq --version)",
+      "Bash(chmod +x ~/.claude/sync-mcp.sh)",
+      "Bash(bash ~/.claude/sync-mcp.sh --dry-run)",
+      "Bash(/Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/src/Python/.venv/bin/python -m pymarkdown scan /Users/martinschloegl/.claude/README.md)",
+      "Bash(/Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/src/Python/.venv/bin/python -m pymarkdown fix /Users/martinschloegl/.claude/README.md)",
+      "Bash(/Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/src/Python/.venv/bin/python -m pymarkdown --help)",
+      "Bash(/Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/src/Python/.venv/bin/python -m pymarkdown plugins info MD013)",
+      "Bash(/Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/src/Python/.venv/bin/python -m pymarkdown plugins info md013)",
+      "Bash(while read:*)",
+      "Bash(do echo:*)",
+      "Read(//Volumes/Dev/GitHubRepos/tt4/mcp-markdownlint/**)",
+      "Bash(done)"
+    ]
+  }
+}
